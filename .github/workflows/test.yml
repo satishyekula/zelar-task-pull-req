@@ -3,10 +3,10 @@ name: Build on update branch changes
 on:
   push:
     branches:
-      - pull-request
+      - branch-1
   pull_request:
     branches:
-      - pull-request
+      - branch-1
 
 jobs:
   build:
