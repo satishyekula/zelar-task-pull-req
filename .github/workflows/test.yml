@@ -1,6 +1,6 @@
 name: Build on update branch changes
 
-#on:
+on:
  # push:
   #  branches:
    #   - pull-request
