@@ -1,9 +1,9 @@
 name: Build on update branch changes
 
 on:
- # push:
-  #  branches:
-   #   - pull-request
+  push:
+    branches:
+      - pull-request
   pull_request:
     branches:
       - pull-request
