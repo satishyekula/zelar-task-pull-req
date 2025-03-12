@@ -1,0 +1,19 @@
+name: Build on branch-1 branch changes
+
+on:
+  pull_request:
+    branches:
+      - branch-1
+
+jobs:
+  build:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Run Build Commands
+        run: |
+          echo "Build triggered due to changes in the branch-1 branch"
+          # Add your actual build steps here
